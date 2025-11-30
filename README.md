@@ -1,14 +1,53 @@
-# Pets Name Generator
+🐾 Pets Name Generator
 
-AI Generates cool pet names for you!
+AI-powered pet name creator built with LangChain + Streamlit
 
-![Pets Name Web app demo](/images/Pets-Name-LangChain.gif)
+Generate fun, unique, and personalized names for any pet — instantly!
 
-## Uses
+✨ Features
 
-- [LangChain](https://python.langchain.com/docs/get_started/introduction.html)
-- [Streamlit](https://streamlit.io/)
+🧠 AI-generated pet names based on species, personality & themes
 
-## Hosted On
+🔗 Built with LangChain (PromptTemplate + Chains
+)
 
-The web-app uses streamlit and is hosted on [Azure Container Apps.](https://azure.microsoft.com/en-ca/products/container-apps)
+🎨 Clean Streamlit UI for smooth interaction
+
+☁️ Deployed on Azure Container Apps with Docker support
+
+🛠️ Tech Stack
+Tool	Description	Logo
+Python	Core programming language	
+
+LangChain	AI workflow, prompt templates & chains	
+
+Streamlit	Web UI framework for Python	
+
+Docker	Containerization & deployment	
+
+Azure	Cloud deployment platform	
+📂 Project Structure
+Pets-Name-Generator/
+├── .gitignore
+├── Dockerfile
+├── README.md
+├── langchain_helper.py   # LangChain prompt & chain logic
+├── main.py               # Streamlit app entrypoint
+└── requirements.txt      # Dependencies
+
+🚀 Quick Start
+git clone <your-repo-url>
+cd Pets-Name-Generator
+pip install -r requirements.txt
+streamlit run main.py
+
+🐳 Docker (Optional)
+docker build -t pets-name-generator .
+docker run -p 8501:8501 pets-name-generator
+
+❤️ Credits
+
+Monika Yadav
+Student | Faculty Development Trainee
+
+Built with 💙 using LangChain, Streamlit, Docker, and Azure.
